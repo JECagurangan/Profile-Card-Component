@@ -1,0 +1,31 @@
+.card {
+  background-color: white;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: 327px;
+  grid-template-rows: 141px 146px 90px;
+
+  &__background {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(./images/bg-pattern-card.svg);
+    position: relative;
+
+    &__profile {
+      width: 108px;
+      height: 108px;
+      border-radius: 50%;
+      border: 5px solid white;
+      background-image: url(./images/image-victor.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: -160%;
+      left: 50%;
+
+      transform: translate(-50%, -160%);
+    }
+  }
+}

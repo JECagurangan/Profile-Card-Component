@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $dk-blue;
+  background: $dk-cyan;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

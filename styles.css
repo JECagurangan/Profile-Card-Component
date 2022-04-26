@@ -1,0 +1,71 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  color: #2d3248;
+  background: #19a2ae;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 327px;
+      grid-template-columns: 327px;
+  -ms-grid-rows: 141px 146px 90px;
+      grid-template-rows: 141px 146px 90px;
+}
+
+.card__background {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url(./images/bg-pattern-card.svg);
+  position: relative;
+}
+
+.card__background__profile {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-image: url(./images/image-victor.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -160%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -160%);
+          transform: translate(-50%, -160%);
+}
+/*# sourceMappingURL=styles.css.map */
